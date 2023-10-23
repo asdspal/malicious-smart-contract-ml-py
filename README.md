@@ -15,10 +15,10 @@ This detection bot detects when a suspicious non-token or non-proxy contract is 
 **Algorithm**  
 Given that the malicious contracts are rare, we will use anomaly detection approach for the problem.      
     **Featurization**     
-    -  [ ]   tf-idf using decompiled opcodes as done previously     
-    -  [ ]   Glove vectors on the decompiled opcodes      
+    - [ ]   tf-idf using decompiled opcodes as done previously     
+    - [ ]   Glove vectors on the decompiled opcodes      
     **ML Models**     
-    -  [ ]  Tree based decision models( Isolation Forest )      
-    -  [ ]  Word2vec      
-    -  [ ]  Pretaining with Transformers on unlabelled datasets followed by finetuning on the smaller labelled dataset     
+    - [ ]  Tree based decision models( Isolation Forest )      
+    - [ ]  Word2vec      
+    - [ ]  Pretaining with Transformers on unlabelled datasets followed by finetuning on the smaller labelled dataset     
 
